@@ -11,56 +11,56 @@
     },
     "default": {
         "currency": "USD",
-        "firstDayOfWeek": "Sunday",
+        "firstDayOfWeek": "Sunnuntai",
         "longDateFormat": "MMDDYYYY",
         "shortDateFormat": "MMDDYYYY",
         "longTimeFormat": "HHMMSSA",
         "shortTimeFormat": "HHMMA",
-        "decimalSeparator": "Dot",
-        "digitGroupingSymbol": "Comma",
-        "digitGrouping": "ThousandsSeparator",
-        "currencyDisplayType": "SymbolBeforeAmount"
+        "decimalSeparator": "Piste",
+        "digitGroupingSymbol": "Pilkku",
+        "digitGrouping": "Tuhaterotin",
+        "currencyDisplayType": "Symboli ennen summaa"
     },
     "format": {
         "longDate": {
-            "yyyy_mm_dd": "YYYY MMMM DD",
-            "mm_dd_yyyy": "MMMM D, YYYY",
-            "dd_mm_yyyy": "D MMMM, YYYY"
+            "yyyy_mm_dd": "VVVV KKKK PP",
+            "mm_dd_yyyy": "KKKK P, VVVV",
+            "dd_mm_yyyy": "P KKKK, VVVV"
         },
         "shortDate": {
-            "yyyy_mm_dd": "YYYY-M-D",
-            "mm_dd_yyyy": "M/D/YYYY",
-            "dd_mm_yyyy": "D/M/YYYY"
+            "yyyy_mm_dd": "VVVV-K-P",
+            "mm_dd_yyyy": "K/P/VVVV",
+            "dd_mm_yyyy": "P/K/VVVV"
         },
         "longYear": {
-            "yyyy_mm_dd": "YYYY",
-            "mm_dd_yyyy": "YYYY",
-            "dd_mm_yyyy": "YYYY"
+            "yyyy_mm_dd": "VVVV",
+            "mm_dd_yyyy": "VVVV",
+            "dd_mm_yyyy": "VVVV"
         },
         "shortYear": {
-            "yyyy_mm_dd": "YYYY",
-            "mm_dd_yyyy": "YYYY",
-            "dd_mm_yyyy": "YYYY"
+            "yyyy_mm_dd": "VVVV",
+            "mm_dd_yyyy": "VVVV",
+            "dd_mm_yyyy": "VVVV"
         },
         "longYearMonth": {
-            "yyyy_mm_dd": "YYYY MMMM",
-            "mm_dd_yyyy": "MMMM, YYYY",
-            "dd_mm_yyyy": "MMMM, YYYY"
+            "yyyy_mm_dd": "VVVV KKKK",
+            "mm_dd_yyyy": "KKKK, VVVV",
+            "dd_mm_yyyy": "KKKK, VVVV"
         },
         "shortYearMonth": {
-            "yyyy_mm_dd": "YYYY-M",
-            "mm_dd_yyyy": "MMM, YYYY",
-            "dd_mm_yyyy": "MMM, YYYY"
+            "yyyy_mm_dd": "VVVV-K",
+            "mm_dd_yyyy": "KKK, VVVV",
+            "dd_mm_yyyy": "KKK, VVVV"
         },
         "longMonthDay": {
-            "yyyy_mm_dd": "MMMM DD",
-            "mm_dd_yyyy": "MMMM D",
-            "dd_mm_yyyy": "D MMMM"
+            "yyyy_mm_dd": "KKKK PP",
+            "mm_dd_yyyy": "KKKK P",
+            "dd_mm_yyyy": "P VVVV"
         },
         "shortMonthDay": {
-            "yyyy_mm_dd": "M-D",
-            "mm_dd_yyyy": "M/D",
-            "dd_mm_yyyy": "D/M"
+            "yyyy_mm_dd": "K-P",
+            "mm_dd_yyyy": "K/P",
+            "dd_mm_yyyy": "P/K"
         },
         "longTime": {
             "hh_mm_ss": "HH:mm:ss",
@@ -80,22 +80,22 @@
         },
         "misc": {
             "multiTextJoinSeparator": ", ",
-            "hoursBehindDefaultTimezone": "{hours} hour(s) behind default timezone",
-            "hoursAheadOfDefaultTimezone": "{hours} hour(s) ahead of default timezone",
-            "hoursMinutesBehindDefaultTimezone": "{hours} hour(s) and {minutes} minutes behind default timezone",
-            "hoursMinutesAheadOfDefaultTimezone": "{hours} hour(s) and {minutes} minutes ahead of default timezone",
-            "monthDay": "{ordinal} day",
+            "hoursBehindDefaultTimezone": "{hours} tuntia oletusaikavyöhykkeen jälkeen",
+            "hoursAheadOfDefaultTimezone": "{hours} tuntia ennen oletusaikavyöhykettä",
+            "hoursMinutesBehindDefaultTimezone": "{hours} tuntia {minutes} minuuttia oletusaikavyöhykkeen jälkeen",
+            "hoursMinutesAheadOfDefaultTimezone": "{hours} tuntia ja {minutes} minuuttia ennen oletusaikavyöhykettä",
+            "monthDay": "{ordinal} päivä",
             "eachMonthDayInMonthDays": "{ordinal}",
-            "monthDays": "{multiMonthDays} days",
-            "everyMultiDaysOfWeek": "Every {days}",
-            "everyMultiDaysOfMonth": "Every {days} of month",
-            "youHaveAccounts": "You have recorded {count} accounts",
-            "addNewTag": "Add new tag \"{tag}\"",
-            "clickToSelectedFile": "Click to select import file ({extensions})",
-            "selectedCount": "Selected {count} of {totalCount}",
-            "youHaveUpdatedTransactions": "You have updated {count} transactions",
-            "confirmImportTransactions": "Are you sure you want to import {count} transactions?",
-            "importTransactionResult": "You have imported {count} transactions successfully.",
+            "monthDays": "{multiMonthDays} päivää",
+            "everyMultiDaysOfWeek": "Joka {days}",
+            "everyMultiDaysOfMonth": "Kuukauden joka {days}",
+            "youHaveAccounts": "Olet tallentanut {count} tiliä",
+            "addNewTag": "Lisää uusi tägi \"{tag}\"",
+            "clickToSelectedFile": "Valitse tuontitiedosto ({extensions})",
+            "selectedCount": "Valittu {count} {totalCount} :sta",
+            "youHaveUpdatedTransactions": "Olet päivittänyt {count} tapahtumaa",
+            "confirmImportTransactions": "Oletko varma, että haluat tuoda {count} tapahtumaa?",
+            "importTransactionResult": "Olet tuonut {count} tapahtumaa onnistuneesti.",
             "accountActivationAndResendValidationEmailTip": "Account activation link has been sent to your email address: {email}, If you don't receive the mail, please fill password again and click the button below to resend the validation mail.",
             "resendValidationEmailTip": "If you don't receive the mail, please fill password again and click the button below to resend the validation mail to: {email}"
         }
